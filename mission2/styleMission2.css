@@ -1,0 +1,192 @@
+.arc {
+    border: 3px solid cornflowerblue;
+    border-radius: 50%;
+    height: 657px;
+    width: 400px;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid transparent;
+    transform: rotate(182deg);
+    position: relative;
+    top: 290px;
+    left: 100px;
+    
+  }
+
+
+  
+  #btn-1{
+    
+    position: relative;
+    top: -270px;
+    width: 604px;
+    height: 60px;
+    left: 450px;
+  }
+
+  #btn-2{
+    
+    position: relative;
+    top: -190px;
+    width: 581px;
+    height: 60px;
+    left: -127px;
+  }
+ 
+
+  #btn-3{
+    
+    position: relative;
+    top: -165px;
+    width: 570px;
+    height: 60px;
+    left: 481px;
+  }
+
+  #btn-4{
+    
+    position: relative;
+    top: -80px;
+    width: 568px;
+    height: 60px;
+    left: -121px;
+  }
+
+
+  #btn-5{
+    
+    position: relative;
+    top: -58px;
+    width: 583px;
+    height: 60px;
+    left: 471px;
+  }
+
+  #btn-6{
+    
+    position: relative;
+    top: -151px;
+    width: 610px;
+    height: 60px;
+    left: 444px;
+  }
+
+
+  .cercle {
+    border: 1px solid cornflowerblue;
+    border-radius: 50%;
+    height: 74px;
+    width: 74px;
+    background-color: white;
+    position: relative;
+    left: -37px;
+    top: -14px;
+    background-image: url("ordi.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ 
+
+.rectangle1, .rectangle2, .rectangle3, .rectangle4, .rectangle5, .rectangle6 {
+	
+    height: 60px;
+    background: cornflowerblue;
+    position: relative;
+    top: -81px;
+    z-index: -3;
+    left: 15px;
+    box-shadow: inset -2px -2px 4px 0 grey;
+    
+}
+
+.rectangle1 {
+	
+    animation: transition 2s;
+    width: 572px;
+    
+}
+
+.rectangle2 {
+	
+    animation: transition 3s;
+    width: 549px;
+    
+}
+
+.rectangle3 {
+	
+    animation: transition 3.5s;
+    width: 538px;
+    
+}
+
+.rectangle4 {
+	
+    animation: transition 4s;
+    width: 536px;
+    
+}
+
+.rectangle5 {
+	
+    animation: transition 4.5s;
+    width: 551px;
+    
+}
+
+.rectangle6 {
+	
+    animation: transition 5s;
+    width: 578px;
+    
+}
+
+
+
+
+#div-2{
+  position: relative;
+    left: 600px;
+    top: -59px;
+    
+}
+
+
+#div-3{
+  position: relative;
+    left: 3px;
+    top: -58px;
+    
+}
+
+#div-4{
+  position: relative;
+    left: 607px;
+    top: -116px;
+   
+}
+
+#div-5{
+  position: relative;
+    left: 0px;
+    top: -114px;
+    
+}
+
+
+ @keyframes transition {
+  from{
+      transform: translateX(2000px);
+      opacity: 0;
+             
+  }
+
+  to{
+      transform: translateX(0px);
+      opacity: 1;
+  }
+} 
+
+
+
